@@ -1,0 +1,309 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 100%;
+  }
+  
+  .top-row, /* Brand colors */ 
+  .second-row, /* Accent and Gradiant */
+  .third-row, /* Neutral colors for Text, container border, system icon */ 
+  .fourth-row, /* Semantic color variables */ 
+  .fifth-row,/* Chart and Data color variables- Tints and Shades of the brand colors */
+  .last-row
+  {
+    display: flex;
+    align-items: baseline;
+  }
+
+
+
+ /* Brand colors */  
+  .brandcolor1{
+    width: 17%;
+    padding: 10px;
+  }
+    .brandcolor1 p{
+    padding-left: 20px;
+  }
+    .brand1{
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 100%;
+    background-color: #1D5774;
+  }
+ .brandcolor2{
+    width: 13%;
+    padding: 10px;
+  }
+    .brandcolor2 p{
+    padding-left: 20px;
+  }
+    .brand2{
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 100%;
+    background-color:#50BFD3;
+  }
+  
+
+
+/* Accent color */  
+.accentcolor1{
+    width: 10%;
+    padding: 10px;
+  }
+    .accentcolor1 p{
+    padding-left: 30px;
+  }
+    .accent1{
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 100%;
+    background-color: #F39200;
+  }
+ .accentcolor2{
+    width: 10%;
+    padding: 10px;
+  }
+    .accentcolor2 p{
+    padding-left: 30px;
+  }
+    .accent2{
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 100%;
+    background: linear-gradient(to bottom, #1D5774, #50BFD3);
+  }
+
+
+/* Neutral colors for Text, container border, system icon */ 
+    .neutralcolor1{
+    width: 10%;
+    padding: 10px;
+  }
+    .neutralcolor1 p{
+    padding-left: 30px;
+  }
+    .neutral1{
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 100%;
+    background-color: #CCCCCC;
+  }
+    .neutralcolor2{
+    width: 10%;
+    padding: 10px;
+  }
+    .neutralcolor2 p{
+    padding-left: 30px;
+  }
+    .neutral2{
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 100%;
+    background-color: #808080;
+  }
+      .neutralcolor3{
+    width: 10%;
+    padding: 10px;
+  }
+    .neutralcolor3 p{
+    padding-left: 30px;
+  }
+    .neutral3{
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 100%;
+    background-color: #333333;
+  }
+
+
+  /* Semantic color variables */ 
+  .semanticcolor1{
+    width: 10%;
+    padding: 10px;
+  }
+    .semanticcolor1 p{
+    padding-left: 30px;
+  }
+    .semantic1{
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 100%;
+    background-color: #59C1DA;
+  }
+ .semanticcolor2{
+    width: 10%;
+    padding: 10px;
+  }
+    .semanticcolor2 p{
+    padding-left: 30px;
+  }
+    .semantic2{
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 100%;
+    background-color: #69D084;
+  }
+  .semanticcolor3{
+    width: 10%;
+    padding: 10px;
+  }
+    .semanticcolor3 p{
+    padding-left: 30px;
+  }
+    .semantic3{
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 100%;
+    background-color:#E5A700;
+  }
+  .semanticcolor4{
+    width: 10%;
+    padding: 10px;
+  }
+    .semanticcolor4 p{
+    padding-left: 30px;
+  }
+    .semantic4{
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 100%;
+    background-color: #E51A00;
+  }
+ 
+
+/* chart and data color variables */ 
+.chartcolor1{
+    width: 7%;
+    padding: 10px;
+  }
+    .chartcolor1 p{
+    text-align: center;
+  }
+    .chart1{
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 100%;
+    background-color: #1A4E68;
+  }
+  .chartcolor2{
+    width: 7%;
+    padding: 10px;
+  }
+    .chartcolor2 p{
+        text-align: center;
+  }
+    .chart2{
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 100%;
+    background-color: #1D5774;
+  }
+  .chartcolor3{
+    width: 7%;
+    padding: 10px;
+  }
+    .chartcolor3 p{
+        text-align: center;
+  }
+    .chart3{
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 100%;
+    background-color: #346882;
+  }
+  .chartcolor4{
+    width: 7%;
+    padding: 10px;
+  }
+    .chartcolor4 p{
+        text-align: center;
+  }
+    .chart4{
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 100%;
+    background-color: #4095A9;
+  }
+  .chartcolor5{
+    width: 7%;
+    padding: 10px;
+  }
+    .chartcolor5 p{
+        text-align: center;
+  }
+    .chart5{
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 100%;
+    background-color:#48ACBE;
+  }
+  .chartcolor6{
+    width: 7%;
+    padding: 10px;
+  }
+    .chartcolor6 p{
+        text-align: center;
+  }
+    .chart6{
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 100%;
+    background-color: #50BFD3;
+  }
+  .chartcolor7{
+    width: 7%;
+    padding: 10px;
+  }
+    .chartcolor7 p{
+        text-align: center;
+  }
+    .chart7{
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 100%;
+    background-color: #62C6D8;
+  }
+  .chartcolor8{
+    width: 7%;
+    padding: 10px;
+  }
+    .chartcolor8 p{
+        text-align: center;
+  }
+    .chart8{
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 100%;
+    background-color: #DA8300;
+  }
+  .chartcolor9{
+    width: 7%;
+    padding: 10px;
+  }
+    .chartcolor9 p{
+        text-align: center;
+  }
+    .chart9{
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 100%;
+    background-color: #F39200;
+  }
+  .chartcolor10{
+    width: 7%;
+    padding: 10px;
+  }
+    .chartcolor10 p{
+        text-align: center;
+  }
+    .chart10{
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 100%;
+    background-color: #F49D1A;
+  }
